@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Index.css">
+	<script src="script.js"></script>   
+	<title>Training</title>
+</head>
+<body>
+	<section>
+	<div class="Top">
+	<nav>
+		<ul>
+			<li><a href="Index.html">Home </a></li>
+			<li><a href="Astro.html">Astronaut </a></li>
+			<li><a href="space_craft.html">Spacecraft </a></li>
+			<li><a href="Train.html">Training </a></li>
+			<li><a class="active"href="Contact.html">Contact </a></li>
+			<li><a href="Gallary.html">Gallary </a></li>				
+		</ul>
+	</nav>
+	</div>
+	</section>
+    <div class="All">
+    <h1 class="find">Find Me At :</h1>  <!-- Using inline CSS-->
+	
+	<div class="contact">
+        <div class="left"></div>
+        <div class="right">
+    <table>
+        <tr>
+            <th><img class="SM" src="fb.png" alt="Facebook"> Facebook </th>
+         <td> : <a href="https://www.facebook.com/barsha.dhakal.75/">Barsha Dhakal</a></td>
+        </tr>
+        <tr>
+            <th><img class="SM" src="in.jpg" alt="Instagram" > Instagram</th>
+            <td> : <a href="https://www.instagram.com/_barsha10_/">Barsha Dhakal</a></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+    
+
+
+<h1 id="message" style="color: white;">                  <!-- Using inline CSS-->
+    Or you can leave your message here!
+</h1>
+
+
+<div class="contact">           <!-- using the class contact-->
+    <!--
+        Creating a form using 'form' tag
+        using inline CSS
+    -->
+    <div class="left"></div>
+    <div class="right">
+      <form onsubmit="validate1()" name = "messageForm">          <!--Calling the function 'validate1'-->
+            <div class="Cyan">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" name = "Name"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name = "Email"></td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input type="text" name = "Phone"></td>
+                </tr>
+                <tr>
+                    <th>Your Message</th>
+                    <td><textarea name="Message" id="1" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr class="send">
+                    <td colspan="2"><input type="submit" value="Send"></td>
+                </tr>
+            </table>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+	

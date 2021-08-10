@@ -1,0 +1,393 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden;	
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.Top{
+	flex: 20%;
+	background:#333333;
+	width: 100%;
+}
+.Top nav ul{
+	list-style: none;
+
+}
+.Top nav ul li{
+	display: inline-block;
+	padding: 25px;
+	margin-top: 20px;
+	position: relative;
+	left: 700px;
+}
+.Top nav ul li a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 5px;
+	color: white;
+
+
+}
+a.active,a:hover{
+	background: #1a1a1a;
+	transition: .5s;
+}
+.slide{
+	background-color: #4d4d4d;
+	height: 800px;
+	width: 100%;
+}
+.container{
+	position: relative;
+	left: 170px;
+	width: 1140px;
+	height: 550px;
+	top: 5px;
+	animation: animate 16s infinite;
+}
+@keyframes animate{
+	0%,100%{
+		background-image: url(Earth.jpg);
+	}
+	25%{
+		background-image: url(astro.jpg);
+	}
+	50%{
+		background-image: url(team.jpg);
+	}
+	75%{
+		background-image: url(st2.jpg);
+	}
+	100%{
+		background-image: url(g2.jpg);
+	}
+
+}
+
+.detail{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.detail h1{
+	font-size: 55px;
+	color: whitesmoke;
+}
+.detail h2{
+	color: white;
+}
+.slast{
+	font-size: 30px;
+	position: relative;
+	top: 580px;
+	color: whitesmoke;
+	text-align: center;
+}
+.last{
+	position: relative;
+	top: 600px;
+	color: whitesmoke;
+}
+.mid{
+	background-color: #4d4d4d;
+}
+.About{
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+
+}
+.Img{
+	height: 400px;
+	width: 500px;
+}
+.caption{
+	position: relative;
+	color: whitesmoke;
+	left: 550px;
+	bottom: 400px;
+}
+.para{
+	width: 100%;
+	padding: 2px;
+	position: relative;
+	color:whitesmoke;
+	left: 510px;
+	bottom: 400px;
+}
+.Img1{
+	height: 300px;
+	width: 500px;
+	position: relative;
+	margin: 0px;
+	left: 1020px;
+	bottom: 140px;
+}
+.caption1{
+	position: relative;
+	color: whitesmoke;
+	bottom: 470px;
+	left: 450px;
+}
+.Bio{
+	left: 10px;
+	position: relative;
+	bottom: 450px;
+	color: whitesmoke;
+	right: 300px;
+
+}
+.gal{
+	background-color: #4d4d4d;
+	width: 100%;
+	height: 100%;
+}
+.Img2{
+	padding: 10px;
+	height: 400px;
+	width: 500px;
+	position: relative;
+	top: 30px;
+}
+.caption2{
+	text-align: center;
+	position: relative;
+	top: 10px;
+	color: whitesmoke;
+	font-size: 30px;
+}
+.gal1{
+	background-color: #4d4d4d;
+	width: 100%;
+	height: 100%;
+}	
+.Img3{
+	padding: 10px;
+	height: 400px;
+	width: 500px;
+	position: relative;
+	top: 55px;
+}	
+.caption3{
+	text-align: center;
+	position: relative;
+	top: 40px;
+	color: whitesmoke;
+	font-size: 30px;
+}
+.gal2{
+	background-color: #4d4d4d;
+	width: 100%;
+	height: 100%;
+}	
+.Img4{
+	padding: 10px;
+	height: 400px;
+	width: 500px;
+	position: relative;
+	top: 70px;
+}	
+.caption4{
+	text-align: center;
+	position: relative;
+	top: 70px;
+	color: whitesmoke;
+	font-size: 30px;
+}
+.space{
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+
+}
+.Img5{
+	height: 400px;
+	width: 500px;
+}
+.caption5{
+	position: relative;
+	color: whitesmoke;
+	left: 900px;
+	bottom: 330px;
+}
+.para1{
+	width: 100%;
+	padding: 2px;
+	position: relative;
+	color:whitesmoke;
+	left: 510px;
+	bottom: 300px;
+}
+.space1{
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+
+}
+.Img6{
+	height: 400px;
+	width: 500px;
+	position: relative;
+	left: 1015px;
+	bottom: 120px;
+}
+.caption6{
+	position: relative;
+	color: whitesmoke;
+	left: 500px;
+	bottom: 450px;
+}
+.para3{
+	width: 100%;
+	padding: 2px;
+	position: relative;
+	color:whitesmoke;
+	left: 0px;
+	bottom: 400px;
+	margin: 5px;
+}
+.Train{
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+
+}
+.Img7{
+	height: 400px;
+	width: 500px;
+}
+.caption7{
+	position: relative;
+	color: whitesmoke;
+	left: 900px;
+	bottom: 330px;
+}
+.para4{
+	width: 100%;
+	padding: 2px;
+	position: relative;
+	color:whitesmoke;
+	left: 510px;
+	bottom: 300px;
+}
+.Train1{
+	background-color: #4d4d4d;
+	height: 100%;
+	width: 100%;
+
+}
+.Img8{
+	height: 400px;
+	width: 500px;
+	position: relative;
+	left: 1015px;
+	bottom: 120px;
+}
+.caption8{
+	position: relative;
+	color: whitesmoke;
+	left: 500px;
+	bottom: 450px;
+}
+.para5{
+	width: 100%;
+	padding: 2px;
+	position: relative;
+	color:whitesmoke;
+	left: 0px;
+	bottom: 400px;
+	margin: 5px;
+}
+
+.find{
+	text-align: center;
+	font-size: 30px; 
+	color:whitesmoke;
+}
+/*adding a margin on the left side of the class 'contact'*/
+.contact{
+    margin-left: 15%;
+    display: flex;
+    margin-right: 15%;
+    background-color: #b3b3cc;
+}
+.left{
+	flex: 30%;
+}
+.right{
+	flex: 70%;
+}
+#message{
+	text-align: center;
+}
+
+.contact table tr th img{
+    height: 35px;
+    width: 35px;
+}
+.contact table tr th{
+    font-size: 25px;
+}
+
+/*adding padding to the table in the class 'contact'*/
+.contact table{
+    padding: 40px;
+}
+.All{
+	background-image: url(Background.jpg);
+}
+.All a{
+	font-size: 20px;
+	color: black;
+}
+.White{
+	font-size: 25px;
+	color: whitesmoke;
+}
+.All table th{
+	font-size: 25px;
+	color: black;
+}
+.Cyan table th{
+	font-size: 25px;
+	color: black;
+}
+.SM{
+	height: 20px;
+	width: 20px;
+}
+.send{
+    text-align: center;
+}
+.foot{
+	background:#333333;
+	width: 100%;
+	height: 120px;
+}
+.text{
+	position: relative;
+	left: 3px;
+	top: 75px;
+	color: whitesmoke;
+	text-align: center;
+}
+.foot1{
+	position: relative;
+	left: 1350px;
+	top: -10px;
+	color: whitesmoke;
+	padding: 10px;
+}
+
